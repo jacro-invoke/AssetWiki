@@ -64,7 +64,7 @@
         {
           "title": "Bensound: Filtered Free Music",
           "url": "https://www.bensound.com/free-music-for-videos",
-          "thumbnail": "images/default.png"
+          "thumbnail": "images/bensound.png"
         }
       ]
     },
@@ -75,7 +75,7 @@
         {
           "title": "itch.io: Filtered Free Sound FX",
           "url": "https://itch.io/game-assets/free/tag-sound-effects",
-          "thumbnail": "images/default.png"
+          "thumbnail": "images/itchio.png"
         }
       ]
     },
@@ -86,7 +86,7 @@
         {
           "title": "Craftpix.net: Filtered Free 2D Sprites",
           "url": "https://craftpix.net/freebies/",
-          "thumbnail": "images/default.png"
+          "thumbnail": "images/craftpix.png"
         },
         {
           "title": "itch.io: Filtered Free 2D Sprites",
@@ -110,7 +110,7 @@
           "thumbnail": "images/itchio.png"
         },
         {
-          "title": "Epic Fab (Need to enable filter 'Price: Free'",
+          "title": "Epic Fab (Select filter 'Price: Free'",
           "url": "https://www.fab.com/",
           "thumbnail": "images/fab.png"
         }
