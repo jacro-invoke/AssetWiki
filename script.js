@@ -14,9 +14,22 @@ document.addEventListener("DOMContentLoaded", function(){
       }
     })
     .catch(error => console.error("Error loading data:", error));
+
+  // Mobile sidebar toggle functionality:
+  // Open sidebar when burger icon is clicked.
+  document.getElementById("sidebar-toggle").addEventListener("click", function(){
+    const sidebar = document.getElementById("sidebar");
+    sidebar.classList.add("active");
+  });
+  
+  // Close sidebar when the close button is clicked.
+  document.getElementById("sidebar-close").addEventListener("click", function(){
+    const sidebar = document.getElementById("sidebar");
+    sidebar.classList.remove("active");
+  });
 });
 
-// Populate the sidebar with links to each category.
+// Populate the sidebar with category links.
 function populateSidebar(categories) {
   const sidebar = document.getElementById("sidebar");
   const list = document.createElement("ul");
@@ -78,9 +91,3 @@ function displayHome() {
   mainContent.appendChild(heading);
   mainContent.appendChild(paragraph);
 }
-
-// Mobile sidebar toggle functionality.
-document.getElementById("sidebar-toggle").addEventListener("click", function(){
-  const sidebar = document.getElementById("sidebar");
-  sidebar.classList.toggle("active");
-});
