@@ -17,22 +17,22 @@
         {
           "title": "Quaternius",
           "url": "https://quaternius.com/",
-          "thumbnail": "images/model.png"
+          "thumbnail": "images/quaternius.png"
         },
         {
           "title": "Poly Pizza",
           "url": "https://poly.pizza/",
-          "thumbnail": "images/model.png"
+          "thumbnail": "images/polypizza.png"
         },
         {
           "title": "Unity Asset Store: Filter Free 3D Models (Account Needed)",
           "url": "https://assetstore.unity.com/search#cf-ec_category=3d&nf-ec_price_filter=0...0",
-          "thumbnail": "images/model.png"
+          "thumbnail": "images/unity.png"
         },
         {
           "title": "Epic Fab: Filter Free 3D Models (Account Needed)",
           "url": "https://www.fab.com/category/3d-model?is_free=1",
-          "thumbnail": "images/model.png"
+          "thumbnail": "images/fab.png"
         }
       ]
     },
