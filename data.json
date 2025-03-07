@@ -5,20 +5,34 @@
       "name": "3D Models",
       "entries": [
         {
-          "title": "Free 3D Model Resource",
-          "url": "https://example.com/3d-model",
+          "title": "Kenney",
+          "url": "https://kenney.nl/assets/category:3D?sort=update",
           "thumbnail": "images/model.png"
         }
-      ]
-    },
-    {
-      "id": "audio",
-      "name": "Audio",
-      "entries": [
         {
-          "title": "Free Audio Resource",
-          "url": "https://example.com/audio",
-          "thumbnail": "images/audio.png"
+          "title": "Turbo Squid (Account Needed)",
+          "url": "https://www.turbosquid.com/Search/3D-Models/free",
+          "thumbnail": "images/model.png"
+        }
+        {
+          "title": "Quaternius",
+          "url": "https://quaternius.com/",
+          "thumbnail": "images/model.png"
+        }
+        {
+          "title": "Poly Pizza",
+          "url": "https://poly.pizza/",
+          "thumbnail": "images/model.png"
+        }
+        {
+          "title": "Unity Asset Store: Filter Free 3D Models (Account Needed)",
+          "url": "https://assetstore.unity.com/search#cf-ec_category=3d&nf-ec_price_filter=0...0",https://www.fab.com/category/3d-model?is_free=1
+          "thumbnail": "images/model.png"
+        }
+        {
+          "title": "Epic Fab: Filter Free 3D Models (Account Needed)",
+          "url": "https://www.fab.com/category/3d-model?is_free=1",
+          "thumbnail": "images/model.png"
         }
       ]
     },
@@ -27,9 +41,41 @@
       "name": "Materials",
       "entries": [
         {
-          "title": "Free Materials Resource",
-          "url": "https://example.com/materials",
+          "title": "Free PBR",
+          "url": "https://freepbr.com/",
           "thumbnail": "images/material.png"
+        }
+        {
+          "title": "Ambient CG",
+          "url": "https://ambientcg.com/",
+          "thumbnail": "images/material.png"
+        }
+        {
+          "title": "Poliigon (Account Needed)",
+          "url": "https://www.poliigon.com/texture/reclaimed-dutch-bond-brick-texture-dull-brown/8320",
+          "thumbnail": "images/material.png"
+        }
+      ]
+    },
+    {
+      "id": "music",
+      "name": "Music",
+      "entries": [
+        {
+          "title": "Bensound: Filter Free Music",
+          "url": "https://www.bensound.com/free-music-for-videos",
+          "thumbnail": "images/audio.png"
+        }
+      ]
+    },
+    {
+      "id": "sound_fx",
+      "name": "Sound FX",
+      "entries": [
+        {
+          "title": "itch.io: Filter Free Sound FX",
+          "url": "https://itch.io/game-assets/free/tag-sound-effects",
+          "thumbnail": "images/audio.png"
         }
       ]
     },
@@ -38,8 +84,18 @@
       "name": "2D Sprites",
       "entries": [
         {
-          "title": "Free 2D Sprites Resource",
-          "url": "https://example.com/2dsprites",
+          "title": "Craftpix.net: Filter Free 2D Sprites",
+          "url": "https://craftpix.net/freebies/",
+          "thumbnail": "images/texture.png"
+        }
+        {
+          "title": "itch.io: Filter Free 2D Sprites",
+          "url": "https://itch.io/game-assets/free/tag-sprites",
+          "thumbnail": "images/texture.png"
+        }
+        {
+          "title": "Craftpix.net: Filter Free 2D Sprites",
+          "url": "https://craftpix.net/freebies/",
           "thumbnail": "images/texture.png"
         }
       ]
