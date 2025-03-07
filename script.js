@@ -88,7 +88,7 @@ function displayHome() {
   const mainContent = document.getElementById("main-content");
   mainContent.innerHTML = "";
   const heading = document.createElement("h1");
-  heading.textContent = "Welcome to the Free Asset Wiki";
+  heading.textContent = "Welcome to the Free Asset Wiki!";
   const paragraph = document.createElement("p");
   paragraph.textContent = "Select a category from the sidebar to browse free resources. Links are updated periodically.";
   mainContent.appendChild(heading);

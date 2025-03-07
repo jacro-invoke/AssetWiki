@@ -54,6 +54,11 @@
           "title": "Poliigon (Account Needed)",
           "url": "https://www.poliigon.com/texture/reclaimed-dutch-bond-brick-texture-dull-brown/8320",
           "thumbnail": "images/poliigon.png"
+        },
+        {
+          "title": "Epic Fab: Filtered Free Materials (Account Needed)",
+          "url": "https://www.fab.com/category/material?is_free=1",
+          "thumbnail": "images/fab.png"
         }
       ]
     },
@@ -65,6 +70,16 @@
           "title": "Bensound: Filtered Free Music",
           "url": "https://www.bensound.com/free-music-for-videos",
           "thumbnail": "images/bensound.png"
+        },
+        {
+          "title": "Unity Asset Store: Filtered Free Music (Account Needed)",
+          "url": "https://assetstore.unity.com/search#cf-ec_category=audio,music&nf-ec_price_filter=0...0",
+          "thumbnail": "images/unity.png"
+        },
+        {
+          "title": "Epic Fab: Filtered Free Music (Account Needed)",
+          "url": "https://www.fab.com/category/audio/music?is_free=1",
+          "thumbnail": "images/fab.png"
         }
       ]
     },
@@ -76,6 +91,16 @@
           "title": "itch.io: Filtered Free Sound FX",
           "url": "https://itch.io/game-assets/free/tag-sound-effects",
           "thumbnail": "images/itchio.png"
+        },
+        {
+          "title": "Unity Asset Store: Filtered Free Sound FX (Account Needed)",
+          "url": "https://assetstore.unity.com/search#cf-ec_category=audio,sound-fx&nf-ec_price_filter=0...0",
+          "thumbnail": "images/unity.png"
+        },
+        {
+          "title": "Epic Fab: Filtered Free Sound FX (Account Needed)",
+          "url": "hhttps://www.fab.com/category/audio/sound-effects?is_free=1",
+          "thumbnail": "images/fab.png"
         }
       ]
     },
@@ -92,6 +117,11 @@
           "title": "itch.io: Filtered Free 2D Sprites",
           "url": "https://itch.io/game-assets/free/tag-sprites",
           "thumbnail": "images/itchio.png"
+        },
+        {
+          "title": "Unity Asset Store: Filtered Free 2D Sprites",
+          "url": "https://assetstore.unity.com/search#cf-ec_category=2d&nf-ec_price_filter=0...0",
+          "thumbnail": "images/unity.png"
         }
       ]
     },
