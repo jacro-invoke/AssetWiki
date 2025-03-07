@@ -23,17 +23,6 @@
       ]
     },
     {
-      "id": "textures",
-      "name": "Textures",
-      "entries": [
-        {
-          "title": "Free Texture Resource",
-          "url": "https://example.com/textures",
-          "thumbnail": "images/texture.png"
-        }
-      ]
-    },
-    {
       "id": "materials",
       "name": "Materials",
       "entries": [
@@ -41,6 +30,17 @@
           "title": "Free Materials Resource",
           "url": "https://example.com/materials",
           "thumbnail": "images/material.png"
+        }
+      ]
+    },
+    {
+      "id": "2D_sprites",
+      "name": "2D Sprites",
+      "entries": [
+        {
+          "title": "Free 2D Sprites Resource",
+          "url": "https://example.com/2dsprites",
+          "thumbnail": "images/texture.png"
         }
       ]
     }
