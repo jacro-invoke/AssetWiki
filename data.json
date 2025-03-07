@@ -72,6 +72,16 @@
           "thumbnail": "images/bensound.png"
         },
         {
+          "title": "Freesound (Account needed)",
+          "url": "https://freesound.org/",
+          "thumbnail": "images/freesound.png"
+        },
+        {
+          "title": "itch.io: Filtered Free Music",
+          "url": "https://itch.io/game-assets/free/tag-music",
+          "thumbnail": "images/itchio.png"
+        },
+        {
           "title": "Unity Asset Store: Filtered Free Music (Account Needed)",
           "url": "https://assetstore.unity.com/search#cf-ec_category=audio,music&nf-ec_price_filter=0...0",
           "thumbnail": "images/unity.png"
@@ -80,7 +90,7 @@
           "title": "Epic Fab: Filtered Free Music (Account Needed)",
           "url": "https://www.fab.com/category/audio/music?is_free=1",
           "thumbnail": "images/fab.png"
-        }
+        },
       ]
     },
     {
@@ -140,7 +150,7 @@
           "thumbnail": "images/itchio.png"
         },
         {
-          "title": "Epic Fab (Select filter 'Price: Free'",
+          "title": "Epic Fab (Select filter 'Price: Free')",
           "url": "https://www.fab.com/",
           "thumbnail": "images/fab.png"
         }
