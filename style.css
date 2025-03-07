@@ -1,4 +1,4 @@
-/* Reset some defaults */
+/* Reset defaults */
 body, h1, h2, h3, p, ul, li, a, button {
   margin: 0;
   padding: 0;
@@ -21,7 +21,7 @@ header {
   position: relative;
 }
 
-/* Make header title link appear as normal text */
+/* Header title link appears as plain text */
 header h1 a,
 header h1 a:link,
 header h1 a:visited,
@@ -36,7 +36,7 @@ header h1 a:active {
   flex: 1;
 }
 
-/* Sidebar styles */
+/* Sidebar styling */
 .sidebar {
   background: #f4f4f4;
   width: 250px;
@@ -45,7 +45,7 @@ header h1 a:active {
   transition: transform 0.3s ease;
 }
 
-/* Sidebar navigation list */
+/* Sidebar list styling */
 .sidebar ul {
   list-style-type: none;
 }
@@ -59,13 +59,13 @@ header h1 a:active {
   text-decoration: none;
 }
 
-/* Main content area */
+/* Main content */
 .main-content {
   flex: 1;
   padding: 1em;
 }
 
-/* Footer styling */
+/* Footer */
 footer {
   background: #333;
   color: #fff;
@@ -73,7 +73,7 @@ footer {
   padding: 1em;
 }
 
-/* Entry styles */
+/* Entry styling */
 .entry {
   display: flex;
   align-items: center;
@@ -87,61 +87,57 @@ footer {
   margin-right: 1em;
 }
 
-/* Mobile Styles */
-#sidebar-toggle {
+/* Desktop: Hide mobile-specific buttons */
+#sidebar-toggle, #sidebar-close {
   display: none;
-  background: none;
-  border: none;
-  font-size: 1.5em;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: 1100;
-  cursor: pointer;
 }
 
-#sidebar-close {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 1.5em;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  cursor: pointer;
-}
-
-/* Adjust layout for screens 768px or smaller */
+/* Mobile styles */
 @media (max-width: 768px) {
-  /* Show burger icon on mobile */
+  /* Show hamburger icon */
   #sidebar-toggle {
     display: block;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1100;
+    cursor: pointer;
   }
 
-  /* Position sidebar off-canvas on mobile */
+  /* Sidebar: fixed, off-canvas by default */
   .sidebar {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    transform: translateX(-100%);
+    transform: translateX(-250px); /* hidden offscreen */
     z-index: 1000;
     background: #f4f4f4;
     width: 250px;
-    padding-top: 50px; /* space for the close button */
+    padding-top: 50px; /* room for the close button */
   }
 
-  /* When active, sidebar slides in */
+  /* When sidebar is active, slide in */
   .sidebar.active {
     transform: translateX(0);
   }
 
-  /* Display the close button inside the sidebar on mobile */
+  /* Show the close button inside the sidebar */
   #sidebar-close {
     display: block;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
   }
 
-  /* Ensure the container fills the screen when sidebar is hidden */
+  /* Ensure container content is pushed down */
   .container {
     margin-top: 50px;
   }
