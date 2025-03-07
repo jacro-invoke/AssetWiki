@@ -20,6 +20,12 @@ header {
   text-align: center;
 }
 
+/* Make header title link appear as normal text */
+header h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .container {
   display: flex;
   flex: 1;
@@ -75,7 +81,7 @@ footer {
   margin-right: 1em;
 }
 
-/* Mobile Styles */
+/* Mobile Sidebar Toggle */
 #sidebar-toggle {
   display: none;
   background: #333;
