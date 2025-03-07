@@ -10,7 +10,7 @@
           "thumbnail": "images/kenney.png"
         },
         {
-          "title": "Turbo Squid (Account Needed)",
+          "title": "Turbo Squid: Filtered Free 3D Models (Account Needed)",
           "url": "https://www.turbosquid.com/Search/3D-Models/free",
           "thumbnail": "images/turbosquid.png"
         },
@@ -25,12 +25,12 @@
           "thumbnail": "images/polypizza.png"
         },
         {
-          "title": "Unity Asset Store: Filter Free 3D Models (Account Needed)",
+          "title": "Unity Asset Store: Filtered Free 3D Models (Account Needed)",
           "url": "https://assetstore.unity.com/search#cf-ec_category=3d&nf-ec_price_filter=0...0",
           "thumbnail": "images/unity.png"
         },
         {
-          "title": "Epic Fab: Filter Free 3D Models (Account Needed)",
+          "title": "Epic Fab: Filtered Free 3D Models (Account Needed)",
           "url": "https://www.fab.com/category/3d-model?is_free=1",
           "thumbnail": "images/fab.png"
         }
@@ -43,17 +43,17 @@
         {
           "title": "Free PBR",
           "url": "https://freepbr.com/",
-          "thumbnail": "images/material.png"
+          "thumbnail": "images/freepbr.png"
         },
         {
           "title": "Ambient CG",
           "url": "https://ambientcg.com/",
-          "thumbnail": "images/material.png"
+          "thumbnail": "images/ambientcg.png"
         },
         {
           "title": "Poliigon (Account Needed)",
           "url": "https://www.poliigon.com/texture/reclaimed-dutch-bond-brick-texture-dull-brown/8320",
-          "thumbnail": "images/material.png"
+          "thumbnail": "images/poliigon.png"
         }
       ]
     },
@@ -62,9 +62,9 @@
       "name": "Music",
       "entries": [
         {
-          "title": "Bensound: Filter Free Music",
+          "title": "Bensound: Filtered Free Music",
           "url": "https://www.bensound.com/free-music-for-videos",
-          "thumbnail": "images/audio.png"
+          "thumbnail": "images/default.png"
         }
       ]
     },
@@ -73,9 +73,9 @@
       "name": "Sound FX",
       "entries": [
         {
-          "title": "itch.io: Filter Free Sound FX",
+          "title": "itch.io: Filtered Free Sound FX",
           "url": "https://itch.io/game-assets/free/tag-sound-effects",
-          "thumbnail": "images/audio.png"
+          "thumbnail": "images/default.png"
         }
       ]
     },
@@ -84,19 +84,35 @@
       "name": "2D Sprites",
       "entries": [
         {
-          "title": "Craftpix.net: Filter Free 2D Sprites",
+          "title": "Craftpix.net: Filtered Free 2D Sprites",
           "url": "https://craftpix.net/freebies/",
-          "thumbnail": "images/texture.png"
+          "thumbnail": "images/default.png"
         },
         {
-          "title": "itch.io: Filter Free 2D Sprites",
+          "title": "itch.io: Filtered Free 2D Sprites",
           "url": "https://itch.io/game-assets/free/tag-sprites",
-          "thumbnail": "images/texture.png"
+          "thumbnail": "images/itchio.png"
+        },
+      ]
+    },
+    {
+      "id": "asset_stores",
+      "name": "General Asset Stores",
+      "entries": [
+        {
+          "title": "Unity Asset Store: Filtered Free Assets",
+          "url": "https://assetstore.unity.com/search#nf-ec_price_filter=0...0",
+          "thumbnail": "images/unity.png"
         },
         {
-          "title": "Craftpix.net: Filter Free 2D Sprites",
-          "url": "https://craftpix.net/freebies/",
-          "thumbnail": "images/texture.png"
+          "title": "itch.io: Filtered Free Assets",
+          "url": "https://itch.io/game-assets/free/",
+          "thumbnail": "images/itchio.png"
+        },
+        {
+          "title": "Epic Fab (Need to enable filter 'Price: Free'",
+          "url": "https://www.fab.com/",
+          "thumbnail": "images/fab.png"
         }
       ]
     }
