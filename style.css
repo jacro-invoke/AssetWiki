@@ -1,0 +1,109 @@
+/* Reset some defaults */
+body, h1, h2, h3, p, ul, li, a, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic layout */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+/* Sidebar styles */
+.sidebar {
+  background: #f4f4f4;
+  width: 250px;
+  padding: 1em;
+  overflow-y: auto;
+  transition: transform 0.3s ease;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar li {
+  margin-bottom: 0.5em;
+}
+
+.sidebar a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Main content area */
+.main-content {
+  flex: 1;
+  padding: 1em;
+}
+
+/* Footer styling */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+/* Entry styles */
+.entry {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.entry .thumbnail {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 1em;
+}
+
+/* Mobile Styles */
+#sidebar-toggle {
+  display: none;
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  font-size: 1.2em;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+/* On smaller screens, adjust layout and make sidebar collapsible */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  #sidebar-toggle {
+    display: block;
+  }
+  
+  .sidebar {
+    width: 100%;
+    transform: translateY(-100%);
+  }
+  
+  .sidebar.active {
+    transform: translateY(0);
+  }
+}

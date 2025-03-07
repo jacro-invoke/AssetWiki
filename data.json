@@ -1,0 +1,48 @@
+{
+  "categories": [
+    {
+      "id": "3d-models",
+      "name": "3D Models",
+      "entries": [
+        {
+          "title": "Free 3D Model Resource",
+          "url": "https://example.com/3d-model",
+          "thumbnail": "images/model.png"
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "name": "Audio",
+      "entries": [
+        {
+          "title": "Free Audio Resource",
+          "url": "https://example.com/audio",
+          "thumbnail": "images/audio.png"
+        }
+      ]
+    },
+    {
+      "id": "textures",
+      "name": "Textures",
+      "entries": [
+        {
+          "title": "Free Texture Resource",
+          "url": "https://example.com/textures",
+          "thumbnail": "images/texture.png"
+        }
+      ]
+    },
+    {
+      "id": "materials",
+      "name": "Materials",
+      "entries": [
+        {
+          "title": "Free Materials Resource",
+          "url": "https://example.com/materials",
+          "thumbnail": "images/material.png"
+        }
+      ]
+    }
+  ]
+}
