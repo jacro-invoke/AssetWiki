@@ -42,7 +42,7 @@ header h1 a:active {
   width: 250px;
   padding: 1em;
   overflow-y: auto;
-  transition: left 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 /* Sidebar list styling */
@@ -107,25 +107,26 @@ footer {
     cursor: pointer;
   }
 
-  /* Sidebar: fixed and completely hidden when closed */
+  /* Sidebar: fixed, using transform to hide off-screen */
   .sidebar {
     position: fixed;
     top: 0;
-    left: -250px;  /* Hide completely off-screen */
-    width: 250px;
+    left: 0;
     bottom: 0;
-    background: #f4f4f4;
-    transition: left 0.3s ease;
+    width: 250px;
     padding-top: 50px; /* space for the header */
+    background: #f4f4f4;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
     z-index: 1000;
   }
 
-  /* When active, slide sidebar fully into view */
+  /* When active, sidebar slides into view */
   .sidebar.active {
-    left: 0;
+    transform: translateX(0);
   }
 
-  /* Adjust container margin so content isn’t overlapped by the header */
+  /* Ensure main content is not overlapped by the header */
   .container {
     margin-top: 50px;
   }
