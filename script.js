@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function(){
     })
     .catch(error => console.error("Error loading data:", error));
 
-  // Mobile sidebar toggle functionality (using the hamburger icon as a toggle)
+  // Mobile sidebar toggle functionality using the hamburger icon as a toggle
   const sidebarToggle = document.getElementById("sidebar-toggle");
   const sidebar = document.getElementById("sidebar");
 

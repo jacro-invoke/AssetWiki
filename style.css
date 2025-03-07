@@ -94,38 +94,39 @@ footer {
 
 /* Mobile styles */
 @media (max-width: 768px) {
-  /* Show hamburger icon on mobile */
+  /* Hamburger icon toggle styling */
   #sidebar-toggle {
     display: block;
     background: none;
     border: none;
     font-size: 1.5em;
-    position: absolute;
+    position: fixed;
     top: 10px;
     left: 10px;
-    z-index: 1100;
+    z-index: 2000;
     cursor: pointer;
   }
 
-  /* Sidebar: fixed and fully hidden off-screen by default */
+  /* Sidebar: fixed and hidden off-screen when closed */
   .sidebar {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    transform: translateX(-100%);
-    z-index: 1000;
-    background: #f4f4f4;
     width: 250px;
     padding-top: 50px; /* space for the header */
+    background: #f4f4f4;
+    transform: translateX(-100%);
+    z-index: 1000;
+    transition: transform 0.3s ease;
   }
 
-  /* When sidebar is active, slide it fully into view */
+  /* When active, slide sidebar fully into view */
   .sidebar.active {
     transform: translateX(0);
   }
 
-  /* Adjust container margin so content isn't overlapped by the header */
+  /* Adjust container margin so content isn’t overlapped by the header */
   .container {
     margin-top: 50px;
   }
