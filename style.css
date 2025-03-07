@@ -59,13 +59,13 @@ header h1 a:active {
   text-decoration: none;
 }
 
-/* Main content */
+/* Main content styling */
 .main-content {
   flex: 1;
   padding: 1em;
 }
 
-/* Footer */
+/* Footer styling */
 footer {
   background: #333;
   color: #fff;
@@ -87,14 +87,14 @@ footer {
   margin-right: 1em;
 }
 
-/* Desktop: Hide mobile-specific buttons */
-#sidebar-toggle, #sidebar-close {
+/* Desktop: Hide mobile-specific button */
+#sidebar-toggle {
   display: none;
 }
 
 /* Mobile styles */
 @media (max-width: 768px) {
-  /* Show hamburger icon */
+  /* Show hamburger icon on mobile */
   #sidebar-toggle {
     display: block;
     background: none;
@@ -107,37 +107,25 @@ footer {
     cursor: pointer;
   }
 
-  /* Sidebar: fixed, off-canvas by default */
+  /* Sidebar: fixed and fully hidden off-screen by default */
   .sidebar {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    transform: translateX(-250px); /* hidden offscreen */
+    transform: translateX(-100%);
     z-index: 1000;
     background: #f4f4f4;
     width: 250px;
-    padding-top: 50px; /* room for the close button */
+    padding-top: 50px; /* space for the header */
   }
 
-  /* When sidebar is active, slide in */
+  /* When sidebar is active, slide it fully into view */
   .sidebar.active {
     transform: translateX(0);
   }
 
-  /* Show the close button inside the sidebar */
-  #sidebar-close {
-    display: block;
-    background: none;
-    border: none;
-    font-size: 1.5em;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-  }
-
-  /* Ensure container content is pushed down */
+  /* Adjust container margin so content isn't overlapped by the header */
   .container {
     margin-top: 50px;
   }

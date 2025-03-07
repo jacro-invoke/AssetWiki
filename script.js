@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function(){
-  // Load JSON data and initialize the page
+  // Load JSON data and initialize page content
   fetch("data.json")
     .then(response => response.json())
     .then(data => {
       populateSidebar(data.categories);
-      // Check if a category is selected via URL parameter
+      // Check URL for category parameter
       const params = new URLSearchParams(window.location.search);
       const catId = params.get("cat");
       if (catId) {
@@ -15,20 +15,13 @@ document.addEventListener("DOMContentLoaded", function(){
     })
     .catch(error => console.error("Error loading data:", error));
 
-  // Mobile sidebar toggle elements
+  // Mobile sidebar toggle functionality (using the hamburger icon as a toggle)
   const sidebarToggle = document.getElementById("sidebar-toggle");
-  const sidebarClose = document.getElementById("sidebar-close");
   const sidebar = document.getElementById("sidebar");
 
   if (sidebarToggle) {
     sidebarToggle.addEventListener("click", function(){
-      sidebar.classList.add("active");
-    });
-  }
-  
-  if (sidebarClose) {
-    sidebarClose.addEventListener("click", function(){
-      sidebar.classList.remove("active");
+      sidebar.classList.toggle("active");
     });
   }
 });
@@ -40,13 +33,13 @@ function populateSidebar(categories) {
   categories.forEach(category => {
     const listItem = document.createElement("li");
     const link = document.createElement("a");
-    // Use query parameter to load category
+    // Build URL with query parameter for category
     link.href = `?cat=${category.id}`;
     link.textContent = category.name;
-    // On mobile, close the sidebar when a link is clicked
+    // On mobile, close sidebar when a category is selected
     link.addEventListener("click", function(){
       if (window.innerWidth <= 768) {
-        document.getElementById("sidebar").classList.remove("active");
+        sidebar.classList.remove("active");
       }
     });
     listItem.appendChild(link);
@@ -55,11 +48,11 @@ function populateSidebar(categories) {
   sidebar.appendChild(list);
 }
 
-// Display entries for the selected category
+// Display selected category's entries
 function displayCategory(catId, categories) {
   const category = categories.find(cat => cat.id === catId);
   const mainContent = document.getElementById("main-content");
-  mainContent.innerHTML = ""; // Clear content
+  mainContent.innerHTML = ""; // Clear previous content
   if (category) {
     const heading = document.createElement("h1");
     heading.textContent = category.name;
@@ -67,16 +60,19 @@ function displayCategory(catId, categories) {
     category.entries.forEach(entry => {
       const entryDiv = document.createElement("div");
       entryDiv.classList.add("entry");
-      // Thumbnail image
+
+      // Thumbnail image for the entry
       const thumbnail = document.createElement("img");
       thumbnail.src = entry.thumbnail;
       thumbnail.alt = entry.title;
       thumbnail.classList.add("thumbnail");
-      // Link to external resource
+
+      // Link for the entry
       const entryLink = document.createElement("a");
       entryLink.href = entry.url;
       entryLink.textContent = entry.title;
       entryLink.target = "_blank";
+
       entryDiv.appendChild(thumbnail);
       entryDiv.appendChild(entryLink);
       mainContent.appendChild(entryDiv);
@@ -86,7 +82,7 @@ function displayCategory(catId, categories) {
   }
 }
 
-// Display the homepage welcome message
+// Display homepage welcome message
 function displayHome() {
   const mainContent = document.getElementById("main-content");
   mainContent.innerHTML = "";
