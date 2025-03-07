@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
   if (sidebarToggle) {
     sidebarToggle.addEventListener("click", function(){
+      // Toggle the active class to open or close the sidebar
       sidebar.classList.toggle("active");
     });
   }
