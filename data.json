@@ -94,7 +94,7 @@
       ]
     },
     {
-      "id": "sound_fx",
+      "id": "sound-fx",
       "name": "Sound FX",
       "entries": [
         {
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "id": "2D_sprites",
+      "id": "2D-sprites",
       "name": "2D Sprites",
       "entries": [
         {
@@ -136,18 +136,39 @@
       ]
     },
     {
-      "id": "asset_stores",
-      "name": "General Asset Stores",
+      "id": "animations",
+      "name": "Animations",
       "entries": [
         {
-          "title": "Unity Asset Store: Filtered Free Assets",
-          "url": "https://assetstore.unity.com/search#nf-ec_price_filter=0...0",
+          "title": "Adobe Mixamo",
+          "url": "https://mixamo.com",
+          "thumbnail": "images/mixamo.png"
+        },
+        {
+          "title": "Unity Asset Store: Filtered Free Animations",
+          "url": "https://assetstore.unity.com/?category=3d%2Fanimations&free=true&orderBy=1",
           "thumbnail": "images/unity.png"
         },
+        {
+          "title": "Epic Fab: Filtered Free Ainmations (Account Needed)",
+          "url": "https://www.fab.com/",
+          "thumbnail": "images/fab.png"
+        }
+      ]
+    },
+    {
+      "id": "asset-stores",
+      "name": "General Asset Stores",
+      "entries": [
         {
           "title": "itch.io: Filtered Free Assets",
           "url": "https://itch.io/game-assets/free/",
           "thumbnail": "images/itchio.png"
+        },
+        {
+          "title": "Unity Asset Store: Filtered Free Assets",
+          "url": "https://assetstore.unity.com/search#nf-ec_price_filter=0...0",
+          "thumbnail": "images/unity.png"
         },
         {
           "title": "Epic Fab (Select filter 'Price: Free')",
