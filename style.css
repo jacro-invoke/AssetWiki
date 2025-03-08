@@ -66,6 +66,10 @@ header h1 a:active {
   padding: 1em;
 }
 
+.main-content h1 {
+  margin-bottom: 20px;
+}
+
 /* Footer styling */
 footer {
   background: #333;
