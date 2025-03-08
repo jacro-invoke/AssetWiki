@@ -51,6 +51,7 @@ header h1 a:active {
 }
 
 .sidebar li {
+  font-size: 1.5em;
   margin-bottom: 0.5em;
 }
 
@@ -99,7 +100,7 @@ footer {
     display: block;
     background: none;
     border: none;
-    font-size: 2em;
+    font-size: 1.5em;
     position: fixed;
     top: 10px;
     left: 10px;
