@@ -5,7 +5,7 @@
       "name": "3D Models",
       "entries": [
         {
-          "title": "Kenney",
+          "title": "Kenney: Filtered Free 3D Models",
           "url": "https://kenney.nl/assets/category:3D?sort=update",
           "thumbnail": "images/kenney.png"
         },
@@ -33,6 +33,11 @@
           "title": "Epic Fab: Filtered Free 3D Models (Account Needed)",
           "url": "https://www.fab.com/category/3d-model?is_free=1",
           "thumbnail": "images/fab.png"
+        },
+        {
+          "title": "CGTrader: Filtered Free 3D Models",
+          "url": "https://www.cgtrader.com/free-3d-models/game?free=1&per_page=120",
+          "thumbnail": "images/cgtrader.png"
         }
       ]
     },
@@ -140,7 +145,7 @@
       "name": "Animations",
       "entries": [
         {
-          "title": "Adobe Mixamo",
+          "title": "Adobe Mixamo (Account Needed)",
           "url": "https://mixamo.com",
           "thumbnail": "images/mixamo.png"
         },
@@ -153,6 +158,27 @@
           "title": "Epic Fab: Filtered Free Animations (Account Needed)",
           "url": "https://www.fab.com/",
           "thumbnail": "images/fab.png"
+        }
+      ]
+    },
+    {
+      "id": "ui-elements",
+      "name": "UI Elements",
+      "entries": [
+        {
+          "title": "Kenney: Filtered Free UI",
+          "url": "https://kenney.nl/assets/tag:interface?sort=update",
+          "thumbnail": "images/kenney.png"
+        },
+        {
+          "title": "itch.io: Filtered Free UI",
+          "url": "https://itch.io/game-assets/free/tag-user-interface",
+          "thumbnail": "images/itchio.png"
+        },
+        {
+          "title": "Unity Asset Store: Filtered Free UI (Account Needed)",
+          "url": "https://assetstore.unity.com/search#cf-ec_category=2d,gui&nf-ec_price_filter=0...0",
+          "thumbnail": "images/unity.png"
         }
       ]
     },
